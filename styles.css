@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
+    background: white;
+}
+
+.container{ 
+    width: 640px;
+    background: white;
+    overflow: hidden;
+    border-radius: 3px;
+    border: 1px solid #dbdbdb;
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.top_bar {
+    width: 100%;
+    height: 75px;
+    padding: 25px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.profile_img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -moz-border-radius: 50%;
+}
+
+
+.profile_img img {
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: inline-block;
+    object-fit: cover;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.profile_img span {
+    margin-left: 50px;
+}
+
+.main_img {
+    width: 640px;
+    height: 640px;
+    margin-bottom: 15px;
+}
+
+.main_img img {
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer {
+    padding-left: 16px;
+    padding-right: 10px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+
+}
+
+.icons .fa {
+    font-size: 24px;
+}
+
+.icons .left-side .fa {
+    margin: 0px 3px;
+    color: #010101;
+}
+
+.likeCount p{
+    color:#010101;
+    font-size: 14px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
